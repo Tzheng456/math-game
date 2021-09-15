@@ -12,3 +12,6 @@ p2 = Player.new(p2_name)
 match = Game.new
 
 match.gameStart(p1, p2)
+
+match.question
+match.answer
