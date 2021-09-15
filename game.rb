@@ -9,7 +9,6 @@ class Game
   end
 
   def game_start
-
     puts "Player 1: (enter a name)"
     p1_name = gets.chomp
     puts "Player 2: (enter a name)"
@@ -82,7 +81,5 @@ class Game
     puts "--------------------"
     puts "  Winner: #{@winner}!"
     puts "--------------------"
-
   end
-  
 end
