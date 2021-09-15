@@ -9,5 +9,6 @@ p2_name = gets.chomp
 p1 = Player.new(p1_name)
 p2 = Player.new(p2_name)
 
-puts p1.name
-puts p2.name
+match = Game.new
+
+match.gameStart(p1, p2)
